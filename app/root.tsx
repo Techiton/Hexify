@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import type { LinksFunction } from "@remix-run/node";
-import styles from "../styles/app.css"
+import styles from "../styles/production.css"
 import {
   Links,
   LiveReload,
