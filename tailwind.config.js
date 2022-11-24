@@ -4,7 +4,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        NavBarFont: ['Noto Serif Khojki', "serif"]
+      }
+    },
   },
   plugins: [],
 }
